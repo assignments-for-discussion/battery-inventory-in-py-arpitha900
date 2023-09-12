@@ -11,7 +11,7 @@ def count_batteries_by_health(present_capacities):
     threshold_failure = 0.63 * rated_capacity
     
     for present_capacity in present_capacities:
-        # Calculate SoH for each battery
+        # Calculate SoH for each ba ttery
         soh = (present_capacity / rated_capacity) * 100
         
         # Categorize batteries based on SoH
